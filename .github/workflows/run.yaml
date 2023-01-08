@@ -1,0 +1,7 @@
+name: github-actions-example
+on: [push]
+jobs:
+  check-bats-version:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Github actions example"
